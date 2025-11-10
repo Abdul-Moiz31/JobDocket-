@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Terms from './components/Terms';
 import './App.css';
+var require = createRequire(import.meta.url);
+var module = { exports: {} };
 
 function Home() {
   return (
@@ -36,4 +38,3 @@ function App() {
 }
 
 export default App;
-
